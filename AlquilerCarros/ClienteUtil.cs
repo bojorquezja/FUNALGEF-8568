@@ -1,12 +1,18 @@
-﻿}using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AlquilerCarros
+﻿public static class ClienteUtil
 {
-    internal class ClienteUtil
+    private static Cliente[] clientes = new Cliente[100]; // Limite de 100 clientes
+    private static int count = 0; // Para llevar la cuenta de cuántos clientes hay
+
+    public static void Crear(Cliente cliente)
     {
-    }
-}
+        if (count < clientes.Length)
+        {
+            clientes[count] = cliente;
+            count++;
+        }
+        else
+        {
+            Console.WriteLine("No se pueden agregar más clientes.");
+        }
+    }// 
+    
