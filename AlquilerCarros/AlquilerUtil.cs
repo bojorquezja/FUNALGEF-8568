@@ -29,3 +29,23 @@ public static class AlquilerUtil
         ClienteUtil.ListarCliente(clientes);
         int clienteIndex = int.Parse(Console.ReadLine()) - 1;
 
+        Console.WriteLine("Seleccione el carro para el alquiler:");
+        CarroUtil.ListarCarro(carros);
+        int carroIndex = int.Parse(Console.ReadLine()) - 1;
+
+        string codigoAlquiler = Guid.NewGuid().ToString();
+        Alquiler nuevoAlquiler = new Alquiler(codigoAlquiler, clientes[clienteIndex], carros[carroIndex]);
+
+        for (int i = 0; i < alquileres.Length; i++)
+        {
+            if (alquileres[i] == null)
+            {
+                alquileres[i] = nuevoAlquiler;
+                Console.WriteLine($"Alquiler creado con código: {codigoAlquiler}");
+                return;
+            }
+        }
+
+        Console.WriteLine("No hay espacio para más alquileres.");
+    }
+
