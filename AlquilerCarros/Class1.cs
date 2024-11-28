@@ -36,6 +36,58 @@ namespace AlquilerCarros
         {
             return $"Numero: {Numero}\nCarro: {CarroAlq}\nCliente: {Contratante}\nPrecio :{Precio}";
         }
+
+
+        public class CarroUtil
+        {
+            private static Carro[] carros = new Carro[100]; 
+            private static int contador = 0; 
+
+            public static void Crear()
+            {
+
+                if (contador >= carros.Length)
+                {
+                    Console.WriteLine("No se pueden agregar más carros, el arreglo está lleno.");
+                    return;
+                }
+
+                Carro c = new Carro();
+
+                Console.WriteLine("Ingrese precio de alquiler: ");
+                c.PrecioAlquiler = double.Parse(Console.ReadLine());
+
+                Console.WriteLine("Ingrese numero de placa: ");
+                c.Placa = Console.ReadLine();
+
+                Console.WriteLine("Ingrese marca: ");
+                c.Marca = Console.ReadLine();
+
+                
+                carros[contador] = c;
+                contador++;
+                Console.WriteLine("Carro creado exitosamente.");
+            }
+
+
+        }
+
+            public static void Listar()
+            {
+
+            }
+
+            public static void Eliminar()
+            {
+
+            }
+
+
+
+
+
+
+        
     }
 }
 //hola
