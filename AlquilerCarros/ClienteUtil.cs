@@ -22,5 +22,25 @@
             Console.WriteLine(clientes[i]);
         }
     }
+    public static void Eliminar(int dni)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            if (clientes[i].Dni == dni)
+            {
+                // Desplazar los elementos hacia la izquierda
+                for (int j = i; j < count - 1; j++)
+                {
+                    clientes[j] = clientes[j + 1];
+                }
+                clientes[count - 1] = null; // Eliminar el último elemento
+                count--;
+                Console.WriteLine($"Cliente con DNI {dni} eliminado.");
+                return;
+            }
+        }
+        Console.WriteLine("Cliente no encontrado.");
+    }
+}
 
 
