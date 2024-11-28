@@ -21,6 +21,13 @@ namespace AlquilerCarros
             {
                 Console.WriteLine("No se pueden agregar más carros.");
             }
+        }
+        public static void Listar()
+        {
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine(carros[i]);
+            }
         } 
 
     }
