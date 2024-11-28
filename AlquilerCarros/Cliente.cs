@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace AlquilerCarros
@@ -13,7 +15,7 @@ namespace AlquilerCarros
         public double PagoMaximo { get; set; }
         public override string ToString()
         {
-            return "Hola cliente";
+            return $"DNI: {Dni}, Nombre: {Nombre}, Pago máximo: {PagoMaximo}";
         }
     }
 }
