@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Linq;
 class Program
 {
     static void Main(string[] args)
@@ -71,8 +71,29 @@ class Program
                     int dniCliente = int.Parse(Console.ReadLine());
                     Console.Write("Ingrese la placa del carro: ");
                     string placaCarro = Console.ReadLine();
-                    var cliente = ClienteUtil.Listar().FirstOrDefault(c => c.Dni == dniCliente);
-                    var carro = CarroUtil.Listar().FirstOrDefault(c => c.Placa == placaCarro);
+
+                    // Buscar el cliente manualmente
+                    Cliente cliente = null;
+                    for (int i = 0; i < ClienteUtil.GetCount(); i++)
+                    {
+                        if (ClienteUtil.GetClientes()[i].Dni == dniCliente)
+                        {
+                            cliente = ClienteUtil.GetClientes()[i];
+                            break; // Salir del bucle cuando encontramos el cliente
+                        }
+                    }
+
+                    // Buscar el carro manualmente
+                    Carro carro = null;
+                    for (int i = 0; i < CarroUtil.GetCount(); i++)
+                    {
+                        if (CarroUtil.GetCarros()[i].Placa == placaCarro)
+                        {
+                            carro = CarroUtil.GetCarros()[i];
+                            break; // Salir del bucle cuando encontramos el carro
+                        }
+                    }
+
                     if (cliente != null && carro != null)
                     {
                         AlquilerUtil.Crear(new Alquiler
@@ -83,7 +104,12 @@ class Program
                             Precio = carro.PrecioAlquiler
                         });
                     }
+                    else
+                    {
+                        Console.WriteLine("Cliente o carro no encontrado.");
+                    }
                     break;
+
                 case 8:
                     // Listar Alquileres
                     AlquilerUtil.Listar();

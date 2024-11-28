@@ -3,6 +3,18 @@
     private static Cliente[] clientes = new Cliente[100]; // Limite de 100 clientes
     private static int count = 0; // Para llevar la cuenta de cuántos clientes hay
 
+    // Método para devolver el arreglo de clientes
+    public static Cliente[] GetClientes()
+    {
+        return clientes;
+    }
+
+    // Método para devolver el número de clientes en el arreglo
+    public static int GetCount()
+    {
+        return count;
+    }
+
     public static void Crear(Cliente cliente)
     {
         if (count < clientes.Length)
@@ -15,6 +27,7 @@
             Console.WriteLine("No se pueden agregar más clientes.");
         }
     }
+
     public static void Listar()
     {
         for (int i = 0; i < count; i++)
@@ -22,6 +35,7 @@
             Console.WriteLine(clientes[i]);
         }
     }
+
     public static void Eliminar(int dni)
     {
         for (int i = 0; i < count; i++)
@@ -42,5 +56,3 @@
         Console.WriteLine("Cliente no encontrado.");
     }
 }
-
-

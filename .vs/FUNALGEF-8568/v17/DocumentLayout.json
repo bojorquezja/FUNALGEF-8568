@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\desktop\\fundalgef\\funalgef-8568\\alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\desktop\\fundalgef\\funalgef-8568\\alquilercarros\\clienteutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\clienteutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\desktop\\fundalgef\\funalgef-8568\\alquilercarros\\alquilerutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\alquilerutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\desktop\\fundalgef\\funalgef-8568\\alquilercarros\\carro util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\carro util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedHeight": 532,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteUtil.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\ClienteUtil.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\ClienteUtil.cs",
+              "ToolTip": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\ClienteUtil.cs",
+              "RelativeToolTip": "AlquilerCarros\\ClienteUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:52:59.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlquilerUtil.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\AlquilerUtil.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\AlquilerUtil.cs",
+              "ToolTip": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\AlquilerUtil.cs",
+              "RelativeToolTip": "AlquilerCarros\\AlquilerUtil.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:37:45.989Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -26,13 +64,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carro Util.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\Carro Util.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\Carro Util.cs",
+              "ToolTip": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\Carro Util.cs",
+              "RelativeToolTip": "AlquilerCarros\\Carro Util.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:24:32.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
               "RelativeDocumentMoniker": "AlquilerCarros\\Program.cs",
               "ToolTip": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
               "RelativeToolTip": "AlquilerCarros\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T06:14:38.839Z",
               "EditorCaption": ""

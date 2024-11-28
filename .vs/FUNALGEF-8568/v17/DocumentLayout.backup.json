@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\",
+  "WorkspaceRootPath": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|d:\\jb\\upn\\2024-2\\isc ug 1 comp1201a fundamentos de algoritmos 8568 - jorge bojorquez\\03 evaluaciones\\05 eval final\\funalgef-8568\\alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\desktop\\fundalgef\\funalgef-8568\\alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,25 @@
       "DocumentGroups": [
         {
           "DockedHeight": 532,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
               "RelativeDocumentMoniker": "AlquilerCarros\\Program.cs",
-              "ToolTip": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
+              "ToolTip": "C:\\Users\\UPN\\Desktop\\FundAlgEF\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
               "RelativeToolTip": "AlquilerCarros\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T06:14:38.839Z",
               "EditorCaption": ""
