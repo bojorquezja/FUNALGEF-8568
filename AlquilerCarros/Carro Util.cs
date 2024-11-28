@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace AlquilerCarros
 {
-    internal class Carro_Util
+    public static class Carro_Util
     {
+        private static Carro[] carros = new Carro[100]; //Limite de carros
+        private static int count = 0; //Para llevar la cuenta de cuantos autos hay
+        public static void Crear(Carro carro)
+        {
+            if (count < carros.Length)
+            {
+                carros[count] = carro;
+                count++;
+            }
+            else
+            {
+                Console.WriteLine("No se pueden agregar más carros.");
+            }
+        } 
+
     }
 }
