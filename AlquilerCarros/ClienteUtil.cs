@@ -8,16 +8,80 @@ namespace AlquilerCarros
 {
     internal class ClienteUtil
     {
-        public static void clienteutil()
-        {
-           Cliente cliente = new Cliente();
+        Claseutil util = new Claseutil();
 
-            Console.WriteLine("Ingrese el dni del cliente:");
-            cliente.Dni=int.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese le nombre del cliente:");
-            cliente.Nombre = Console.ReadLine();
-            Console.WriteLine("Ingrese pago maximo:");
-            cliente.PagoMaximo=double.Parse(Console.ReadLine());
+        public void Opcion2()
+
+        {
+
+            byte opcion1;
+
+            do
+
+
+
+            {
+
+
+
+
+
+
+
+                Console.WriteLine("\n**MENU**");
+
+
+
+                Console.WriteLine("Crear [1]: ");
+
+                Console.WriteLine("Listar [2]: ");
+
+                Console.WriteLine("FIN [0]: ");
+
+
+
+                Console.WriteLine("Ingrese opcion: ");
+
+
+
+                while (!byte.TryParse(Console.ReadLine(), out opcion1) || opcion1 > 2)
+
+
+
+                {
+
+
+
+                    Console.WriteLine("Error: Ingrese valor: ");
+
+
+
+                }
+
+
+
+                Console.Clear();
+
+
+
+                switch (opcion1)
+
+                {
+
+                    case 1:
+
+                        util.crear2(); break;
+
+                    case 2:
+
+
+
+                        break;
+
+                }
+
+            } while (opcion1 != 0);
+
         }
     }
 }

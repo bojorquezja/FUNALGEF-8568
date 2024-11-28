@@ -10,17 +10,80 @@ namespace AlquilerCarros
     {
 
 
-        public static void alquilerutil()
+        Claseutil util = new Claseutil();
+
+        public void Opcion3()
+
         {
-            Alquiler alquiler = new Alquiler();
-            Console.WriteLine("Ingrese el numero de placa:");
-            alquiler.Numero = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ingrese el carro:");
-            alquiler.Carro = Console.ReadLine();
-            Console.WriteLine("ingrese el contratante");
-            alquiler.Cliente = Console.ReadLine();
-            Console.WriteLine("Ingrese el precio:");
-            alquiler.Precio = double.Parse(Console.ReadLine());
+
+            byte opcion1;
+
+            do
+
+
+
+            {
+
+
+
+
+
+
+
+                Console.WriteLine("\n**MENU**");
+
+
+
+                Console.WriteLine("Crear [1]: ");
+
+                Console.WriteLine("Listar [2]: ");
+
+                Console.WriteLine("FIN [0]: ");
+
+
+
+                Console.WriteLine("Ingrese opcion: ");
+
+
+
+                while (!byte.TryParse(Console.ReadLine(), out opcion1) || opcion1 > 2)
+
+
+
+                {
+
+
+
+                    Console.WriteLine("Error: Ingrese valor: ");
+
+
+
+                }
+
+
+
+                Console.Clear();
+
+
+
+                switch (opcion1)
+
+                {
+
+                    case 1:
+
+                        util.crear3(); break;
+
+                    case 2:
+
+
+
+                        break;
+
+                }
+
+            } while (opcion1 != 0);
+
         }
     }
 }

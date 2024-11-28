@@ -8,16 +8,78 @@ namespace AlquilerCarros
 {
     internal class CarroUtil1
     {
-        public static void carroutil()
-        {
-            Carro carro = new Carro();
+        Claseutil util = new Claseutil();
 
-            Console.WriteLine("Ingrese la placa:");
-            carro.Placa = Console.ReadLine();
-            Console.WriteLine("Ingrese la marca del carro:");
-            carro.Marca = Console.ReadLine();
-            Console.WriteLine("Ingrese el preci");
-            carro.PrecioAlquiler=double.Parse(Console.ReadLine());
+        public void Opcion1()
+
+        {
+
+            byte opcion1;
+
+            do
+
+
+
+            {
+
+
+
+
+
+
+
+                Console.WriteLine("\n**MENU**");
+
+
+
+                Console.WriteLine("Crear [1]: ");
+
+                Console.WriteLine("Listar [2]: ");
+
+                Console.WriteLine("FIN [0]: ");
+
+
+
+                Console.WriteLine("Ingrese opcion: ");
+
+
+
+                while (!byte.TryParse(Console.ReadLine(), out opcion1) || opcion1 > 2)
+
+
+
+                {
+
+
+
+                    Console.WriteLine("Error: Ingrese valor: ");
+
+
+
+                }
+
+
+
+                Console.Clear();
+
+
+
+                switch (opcion1)
+
+                {
+
+                    case 1:
+
+                        util.crear1(); break;
+
+
+
+                }
+
+            } while (opcion1 != 0);
+
+
+
         }
     }
 }
