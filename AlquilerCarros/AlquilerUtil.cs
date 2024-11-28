@@ -19,3 +19,13 @@
     }
 }
 
+public static class AlquilerUtil
+{
+    private static List<Alquiler> alquileres = new List<Alquiler>();
+
+    public static void CrearAlquiler(AlquilerUtil[] alquileres, Carro[] carros, Cliente[] clientes)
+    {
+        Console.WriteLine("Seleccione el cliente para el alquiler:");
+        ClienteUtil.ListarCliente(clientes);
+        int clienteIndex = int.Parse(Console.ReadLine()) - 1;
+
