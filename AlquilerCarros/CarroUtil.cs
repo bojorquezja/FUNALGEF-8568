@@ -10,12 +10,12 @@ namespace AlquilerCarros
     {
         public void CrearCarro(List<Carro> carros)
         {
-            Console.WriteLine("****** Registro de Carros ******");
+            Console.WriteLine("\n****** Registro de Carros ******");
             Console.Write("Ingrese la placa del carro: ");
             string placa = Console.ReadLine();
             Console.Write("Ingrese la marca: ");
             string marca = Console.ReadLine();
-            Console.Write("Ingrese el precio de alquiler: ");
+            Console.Write("Ingrese el precio de alquiler: S/");
             double precioalquiler = double.Parse(Console.ReadLine());
             carros.Add(new Carro { Placa = placa, Marca = marca, PrecioAlquiler = precioalquiler });
             Console.Clear();
@@ -26,7 +26,7 @@ namespace AlquilerCarros
             Console.Clear();
             if (carros.Count == 0)
             {
-                Console.WriteLine("No hay carros registrados");
+                Console.WriteLine("\nNo hay carros registrados\n\n");
             }
             else
             {
@@ -40,17 +40,24 @@ namespace AlquilerCarros
         public void EliminarCarro(List<Carro> carros)
         {
             Console.Clear();
-            ListarCarro(carros);
-            Console.Write("\nIngrese el índice del carro a eliminar: ");
-            int index = int.Parse(Console.ReadLine());
-            if (index >= 0 && index < carros.Count)
+            if (carros.Count == 0)
             {
-                carros.RemoveAt(index);
-                Console.WriteLine("Registro de carro eliminado con éxito.");
+                Console.WriteLine("\nNo hay carros registrados.\n\n");
             }
-            else
+            else if (carros.Count >= 1)
             {
-                Console.WriteLine("Indice invalido.");
+                ListarCarro(carros);
+                Console.Write("\nIngrese el índice del carro a eliminar: ");
+                int index = int.Parse(Console.ReadLine());
+                if (index >= 0 && index < carros.Count)
+                {
+                    carros.RemoveAt(index);
+                    Console.WriteLine("Registro de carro eliminado con éxito.\n\n");
+                }
+                else
+                {
+                    Console.WriteLine("\nIndice invalido.\n\n");
+                }
             }
         }
     }

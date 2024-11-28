@@ -1,8 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AlquilerCarros;
-List<Carro> carros = new List<Carro>(100);
-List<Cliente> clientes = new List<Cliente>(100);
-List<Alquiler> alquileres = new List<Alquiler>(100);
+using System;
+using System.Collections.Generic;
+
+List<Carro> carros = new List<Carro>();
+List<Cliente> clientes = new List<Cliente>();
+List<Alquiler> alquileres = new List<Alquiler>();
 
 CarroUtil c = new CarroUtil();
 ClienteUtil cl = new ClienteUtil();
@@ -17,7 +20,7 @@ while (true)
     Console.WriteLine(" 3.   Alquileres");
     Console.WriteLine(" 0.   Salir");
     Console.WriteLine("\n******************************");
-    Console.Write("Ingrese una opción: \n");
+    Console.Write("Ingrese una opción: ");
     int opc = int.Parse(Console.ReadLine());
 
     if (opc == 0)
@@ -33,7 +36,7 @@ while (true)
         Console.WriteLine("3.   Eliminar Registro de Carros");
         Console.WriteLine("0.   Salir");
         Console.WriteLine("\n******************************");
-        Console.Write("Ingrese una opción: \n");
+        Console.Write("Ingrese una opción: ");
         opc = int.Parse(Console.ReadLine());
 
         switch (opc)
@@ -53,7 +56,7 @@ while (true)
         Console.WriteLine("3.   Lista de Clientes");
         Console.WriteLine("0.   Salir");
         Console.WriteLine("\n******************************");
-        Console.Write("Ingrese una opción: \n");
+        Console.Write("Ingrese una opción: ");
         opc = int.Parse(Console.ReadLine());
 
         switch (opc)
@@ -73,7 +76,7 @@ while (true)
              Console.WriteLine("3.   Carros a Alquilar");
              Console.WriteLine("0.   Salir");
              Console.WriteLine("\n******************************");
-             Console.Write("Ingrese una opción: \n");
+             Console.Write("Ingrese una opción: ");
              opc = int.Parse(Console.ReadLine());
 
              switch (opc)
