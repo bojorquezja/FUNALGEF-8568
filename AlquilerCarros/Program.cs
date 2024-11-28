@@ -61,6 +61,7 @@ do
 
     Console.Clear();
     Console.Clear();
+    Console.Clear();
 
 
 
