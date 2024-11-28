@@ -15,7 +15,7 @@ namespace AlquilerCarros
         public double PagoMaximo { get; set; }
         public override string ToString()
         {
-            return $"DNI: {Dni}, Nombre: {Nombre}, Pago máximo: {PagoMaximo}";
+                return $"DNI: {Dni}, Nombre: {Nombre}, Pago máximo: {PagoMaximo}";
         }
     }
 }
