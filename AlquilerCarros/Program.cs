@@ -15,6 +15,7 @@ do
     respuesta = int.Parse(Console.ReadLine());
 
     Console.Clear();
+    consoole.Clear();
 
 
 
