@@ -8,24 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\j_boj\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\C2\\final\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
       "projectName": "AlquilerCarros",
-      "projectPath": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
-      "packagesPath": "C:\\Users\\j_boj\\.nuget\\packages\\",
-      "outputPath": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\AlquilerCarros\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\C2\\final\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO\\OneDrive\\Documentos\\C2\\final\\FUNALGEF-8568\\AlquilerCarros\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\j_boj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -72,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
