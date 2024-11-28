@@ -13,7 +13,7 @@ namespace AlquilerCarros
         public double PrecioAlquiler {  get; set; }
         public override string ToString()
         {
-            return "Hola carro";
+            return $"Placa: {Placa}, Marca: {Marca}, Precio: {PrecioAlquiler}";
         }
     }
 }
