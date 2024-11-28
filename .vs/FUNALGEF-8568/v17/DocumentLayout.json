@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\",
+  "WorkspaceRootPath": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|d:\\jb\\upn\\2024-2\\isc ug 1 comp1201a fundamentos de algoritmos 8568 - jorge bojorquez\\03 evaluaciones\\05 eval final\\funalgef-8568\\alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\funalgef-8568\\alquilercarros\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\funalgef-8568\\alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,15 +18,52 @@
       "DocumentGroups": [
         {
           "DockedHeight": 532,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\Class1.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\Class1.cs",
+              "ToolTip": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\Class1.cs",
+              "RelativeToolTip": "AlquilerCarros\\Class1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwG0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:12:37.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
               "RelativeDocumentMoniker": "AlquilerCarros\\Program.cs",
-              "ToolTip": "D:\\jb\\upn\\2024-2\\ISC UG 1 COMP1201A FUNDAMENTOS DE ALGORITMOS 8568 - Jorge Bojorquez\\03 EVALUACIONES\\05 Eval Final\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
+              "ToolTip": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
               "RelativeToolTip": "AlquilerCarros\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
