@@ -49,3 +49,15 @@ public static class AlquilerUtil
         Console.WriteLine("No hay espacio para más alquileres.");
     }
 
+    public static void ListarAlquiler(AlquilerUtil[] alquileres)
+    {
+        Console.WriteLine("Alquileres Registrados:");
+        foreach (var alquiler in alquileres)
+        {
+            if (alquiler != null)
+            {
+                Console.WriteLine(alquiler.ToString());
+            }
+        }
+    }
+}
