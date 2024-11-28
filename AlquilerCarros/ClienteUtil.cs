@@ -14,5 +14,13 @@
         {
             Console.WriteLine("No se pueden agregar más clientes.");
         }
-    }// 
-    
+    }
+    public static void Listar()
+    {
+        for (int i = 0; i < count; i++)
+        {
+            Console.WriteLine(clientes[i]);
+        }
+    }
+
+
