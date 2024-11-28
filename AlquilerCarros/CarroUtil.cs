@@ -22,7 +22,7 @@ namespace AlquilerCarros
                 string marca = Console.ReadLine();
                 Console.Write("Ingrese el precio de alquiler: ");
                 double precioalquiler = double.Parse(Console.ReadLine());
-
+                carros.Add(new Carro { Placa = placa, Marca = marca, PrecioAlquiler = precioalquiler });
                 Console.Clear();
                 Console.WriteLine("Carro registrado correctamente.\n\n");
             }

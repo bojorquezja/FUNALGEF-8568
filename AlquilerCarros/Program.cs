@@ -1,4 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using AlquilerCarros;
+List<Carro> carros = new List<Carro>();
+List<Cliente> clientes = new List<Cliente>();
+List<Alquiler> alquileres = new List<Alquiler>();
 
 while (true)
 {
