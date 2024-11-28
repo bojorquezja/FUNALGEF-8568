@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace AlquilerCarros
@@ -14,7 +16,7 @@ namespace AlquilerCarros
         public double Precio { get; set; }
         public override string ToString()
         {
-            return "Hola alquiler";
+            return $"Número: {Numero}, Carro de alquiler: {CarroAlq}, Precio: {Precio}";
         }
     }
 }

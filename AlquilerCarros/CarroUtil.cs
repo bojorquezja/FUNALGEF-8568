@@ -8,7 +8,7 @@ namespace AlquilerCarros
 {
     public class CarroUtil
     {
-        public static void CrearCarro(List<Carro> carros)
+        public void CrearCarro(List<Carro> carros)
         {
             Console.WriteLine("****** Registro de Carros ******");
             Console.Write("Ingrese la placa del carro: ");
@@ -21,7 +21,7 @@ namespace AlquilerCarros
             Console.Clear();
             Console.WriteLine("Carro registrado correctamente.\n\n");
         }
-        public static void ListarCarro(List<Carro> carros)
+        public void ListarCarro(List<Carro> carros)
         {
             Console.Clear();
             if (carros.Count == 0)
@@ -37,9 +37,11 @@ namespace AlquilerCarros
                 }
             }
         }
-        public static void EliminarCarro(List<Carro> carros)
+        public void EliminarCarro(List<Carro> carros)
         {
             Console.Clear();
+            ListarCarro(carros);
+            Console.Write("\nIngrese el índice del carro a eliminar: ");
             int index = int.Parse(Console.ReadLine());
             if (index >= 0 && index < carros.Count)
             {
