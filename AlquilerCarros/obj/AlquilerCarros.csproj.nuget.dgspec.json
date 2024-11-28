@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UPN\\source\\repos\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj": {}
+    "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UPN\\source\\repos\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj": {
+    "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UPN\\source\\repos\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
+        "projectUniqueName": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
         "projectName": "AlquilerCarros",
-        "projectPath": "C:\\Users\\UPN\\source\\repos\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
+        "projectPath": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\AlquilerCarros.csproj",
         "packagesPath": "C:\\Users\\UPN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UPN\\source\\repos\\FUNALGEF-8568\\AlquilerCarros\\obj\\",
+        "outputPath": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -37,5 +37,15 @@ namespace AlquilerCarros
             return $"Numero: {Numero}\nCarro: {CarroAlq}\nCliente: {Contratante}\nPrecio :{Precio}";
         }
     }
-}
+    public class AlquilerUtil
+    {
+        public double PrecioAlquiler { get; set; }
+        public string Placa { get; set; }
+        public string Marca { get; set; }
+        public override string? ToString()
+        {
+            return $"Placa: {Placa}\nMarca: {Marca}\nPrecio de alquiler: {PrecioAlquiler}";
+        }
+    }
+    }
 //hola
