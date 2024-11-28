@@ -69,18 +69,65 @@ namespace AlquilerCarros
                 Console.WriteLine("Carro creado exitosamente.");
             }
 
-
-        }
-
             public static void Listar()
             {
+                if (contador == 0)
+                {
+                    Console.WriteLine("No hay carros registrados.");
+                    return;
+                }
 
+                for (int i = 0; i < contador; i++)
+                {
+                    Console.WriteLine(carros[i].ToString());
+                }
             }
 
             public static void Eliminar()
             {
+                if (contador == 0)
+                {
+                    Console.WriteLine("No hay carros para eliminar.");
+                    return;
+                }
 
-            }
+                Console.WriteLine("Ingrese la placa del carro a eliminar:");
+                string placa = Console.ReadLine();
+
+                bool encontrado = false;
+
+                for (int i = 0; i < contador; i++)
+                {
+                    if (carros[i].Placa == placa)
+                    {
+                        
+                        for (int j = i; j < contador - 1; j++)
+                        {
+                            carros[j] = carros[j + 1];
+                        }
+
+                        
+                        carros[contador - 1] = null;
+
+                        
+                        contador--;
+                        Console.WriteLine("Carro eliminado exitosamente.");
+                        encontrado = true;
+                        break;
+                    }
+                }
+
+                if (!encontrado)
+                {
+                    Console.WriteLine("Carro no encontrado.");
+                }
+            
+        }
+        }
+
+        
+
+        
 
 
 
