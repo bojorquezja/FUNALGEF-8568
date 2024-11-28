@@ -18,6 +18,13 @@ namespace AlquilerCarros
             {
                 Console.Write("Ingrese la placa del carro: ");
                 string placa = Console.ReadLine();
+                Console.Write("Ingrese la marca: ");
+                string marca = Console.ReadLine();
+                Console.Write("Ingrese el precio de alquiler: ");
+                double precioalquiler = double.Parse(Console.ReadLine());
+
+                Console.Clear();
+                Console.WriteLine("Carro registrado correctamente.\n\n");
             }
         }
         public static void ListarCarro()
