@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\",
+  "WorkspaceRootPath": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\funalgef-8568\\alquilercarros\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\nueva carpeta\\funalgef-8568\\alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\funalgef-8568\\alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\nueva carpeta\\funalgef-8568\\alquilercarros\\clienteutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\clienteutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\nueva carpeta\\funalgef-8568\\alquilercarros\\carroutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\carroutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\nueva carpeta\\funalgef-8568\\alquilercarros\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\nueva carpeta\\funalgef-8568\\alquilercarros\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\nueva carpeta\\funalgef-8568\\alquilercarros\\alquilerutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\alquilerutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|c:\\users\\upn\\downloads\\nueva carpeta\\funalgef-8568\\alquilercarros\\alquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F194626B-B7BF-4504-A42F-AFCE3D8F5CCE}|AlquilerCarros\\AlquilerCarros.csproj|solutionrelative:alquilercarros\\alquiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,51 +41,92 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\Class1.cs",
-              "RelativeDocumentMoniker": "AlquilerCarros\\Class1.cs",
-              "ToolTip": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\Class1.cs",
-              "RelativeToolTip": "AlquilerCarros\\Class1.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA1wEAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ClienteUtil.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\ClienteUtil.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\ClienteUtil.cs",
+              "ToolTip": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\ClienteUtil.cs*",
+              "RelativeToolTip": "AlquilerCarros\\ClienteUtil.cs*",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAIwI4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T13:12:37.795Z",
+              "WhenOpened": "2024-11-28T14:43:16.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "AlquilerUtil.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\AlquilerUtil.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\AlquilerUtil.cs",
+              "ToolTip": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\AlquilerUtil.cs*",
+              "RelativeToolTip": "AlquilerCarros\\AlquilerUtil.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:42:30.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarroUtil.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\CarroUtil.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\CarroUtil.cs",
+              "ToolTip": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\CarroUtil.cs*",
+              "RelativeToolTip": "AlquilerCarros\\CarroUtil.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:40:45.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Alquiler.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\Alquiler.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\Alquiler.cs",
+              "ToolTip": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\Alquiler.cs*",
+              "RelativeToolTip": "AlquilerCarros\\Alquiler.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:40:23.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\Carro.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\Carro.cs",
+              "ToolTip": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\Carro.cs*",
+              "RelativeToolTip": "AlquilerCarros\\Carro.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:39:54.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\Cliente.cs",
+              "RelativeDocumentMoniker": "AlquilerCarros\\Cliente.cs",
+              "ToolTip": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\Cliente.cs*",
+              "RelativeToolTip": "AlquilerCarros\\Cliente.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:39:27.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
               "RelativeDocumentMoniker": "AlquilerCarros\\Program.cs",
-              "ToolTip": "C:\\Users\\UPN\\Downloads\\FUNALGEF-8568\\AlquilerCarros\\Program.cs",
-              "RelativeToolTip": "AlquilerCarros\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\UPN\\Downloads\\Nueva carpeta\\FUNALGEF-8568\\AlquilerCarros\\Program.cs*",
+              "RelativeToolTip": "AlquilerCarros\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-28T06:14:38.839Z",
               "EditorCaption": ""
