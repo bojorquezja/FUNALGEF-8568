@@ -15,7 +15,6 @@ do
     respuesta = int.Parse(Console.ReadLine());
 
     Console.Clear();
-    consoole.Clear();
 
 
 
@@ -61,6 +60,8 @@ do
     }
 
     Console.Clear();
+    Console.Clear();
+    Console.Clear();
 
 
 
@@ -69,24 +70,22 @@ do
     {
 
         case 1:
-
-
+            for (int i = 0; i < posicion; i++)
+                Console.WriteLine("\ncarro " + arreglocarro[i] +"\ncliente: " + arreglocliente[i] + "\nPrecio:"+ arregloprecio[i]+ " "); 
 
             break;
 
         case 2:
-
-
+            for (int i = 0; i < posicion; i++)
+                Console.WriteLine("\nplaca " + arregloplaca[i] + "\nmarca: " + arreglomarca[i] + "\nPrecioalquiler:" + arregloprecioalquiler[i] + " ");
 
             break;
 
 
 
         case 3:
-
-
-
-
+            for (int i = 0; i < posicion; i++)
+                Console.WriteLine("\ndni " + arreglodni[i] + "\nNombre: " + arreglonombre[i] + "\nPagoMaximo:" + arreglopagomaximo[i] + " ");
 
             break;
 
