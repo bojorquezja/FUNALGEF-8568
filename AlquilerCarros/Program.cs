@@ -1,11 +1,11 @@
 ﻿public class Program
 
 {
-    static Carro[] carros = new Carro[10];
+    static CarroUtil[] carros = new CarroUtil[10];
 
-    static Cliente[] clientes = new Cliente[5];
+    static ClienteUtil[] clientes = new ClienteUtil[5];
 
-    static Alquiler[] alquileres = new Alquiler[10];
+    static AlquilerUtil[] alquileres = new AlquilerUtil[10];
 
     public static void Main()
 
@@ -30,49 +30,49 @@
             {
                 case 1:
 
-                    Carro.CrearCarro(carros);
+                    CarroUtil.CrearCarro(carros);
 
                     break;
 
                 case 2:
 
-                    Carro.EliminarCarro(carros);
+                    CarroUtil.EliminarCarro(carros);
 
                     break;
 
                 case 3:
 
-                    Carro.ListarCarro(carros);
+                    CarroUtil.ListarCarro(carros);
 
                     break;
 
                 case 4:
 
-                    Cliente.CrearCliente(clientes);
+                    ClienteUtil.CrearCliente(clientes);
 
                     break;
 
                 case 5:
 
-                    Cliente.EliminarCliente(clientes);
+                    ClienteUtil.EliminarCliente(clientes);
 
                     break;
 
                 case 6:
 
-                    Cliente.ListarCliente(clientes);
+                    ClienteUtil.ListarCliente(clientes);
 
                     break;
 
                 case 7:
 
-                    Alquiler.CrearBoleta(alquileres, carros, clientes);
+                    AlquilerUtil.CrearAlquiler(alquileres, carros, clientes);
 
                     break;
 
                 case 8:
 
-                    Alquiler.ListarBoletas(alquileres);
+                    AlquilerUtil.ListarAlquiler(alquileres);
 
                     break;
 
