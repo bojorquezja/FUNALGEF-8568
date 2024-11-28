@@ -33,6 +33,22 @@ namespace AlquilerCarros
         {
             ListarCarro(carro, count);
             Console.Write("Seleccione el indice del carro a eliminar: ");
+            int index = int.Parse(Console.ReadLine());
+
+            if (index>=0 && index<count)
+            {
+                for (int i = index; i < count - 1;i++) 
+                {
+                    carro[i] = carro[i + 1];
+                }
+                carro[--count] = null;
+                Console.WriteLine("Carro eliminado con exito..");
+            } 
+            else
+            {
+                Console.WriteLine("Indice invalido..");
+            }
+
         }
     }
 }
