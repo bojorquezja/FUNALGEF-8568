@@ -29,6 +29,27 @@ namespace AlquilerCarros
             {
                 Console.WriteLine(carros[i]);
             }
-        } 
-    }
+        }
+        public static void Eliminar(string placa)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                if (carros[i].Placa == placa)
+                {
+                    // Desplazar los elementos hacia la izquierda
+                    for (int j = i; j < count - 1; j++)
+                    {
+                        carros[j] = carros[j + 1];
+                    }
+                    carros[count - 1] = null; // Eliminar el último elemento
+                    count--;
+                    Console.WriteLine($"Carro con placa {placa} eliminado.");
+                    return;
+                }
+            }
+            Console.WriteLine("Carro no encontrado.");
+        }
+    } 
+
 }
+
